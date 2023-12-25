@@ -1,8 +1,8 @@
 from mcpadc import MCP
 import time
 
-# Initialize MCP object for MCP3008 ADC (10-bit resolution)
-adc_module = MCP(model="3008", v_ref=5.0)
+# Initialize MCP object for MCP3008 ADC (10-bit resolution, 8 channels)
+adc_module = MCP(model="3008", v_ref=5.0) # v_ref can be 3.3 or 5.0
 
 try:
     while True:
