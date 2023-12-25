@@ -16,13 +16,12 @@ Additionally, an example script (`example.py`) showcases the usage of the `MCP` 
 
    - Install `spidev` for SPI communication:
      ```bash
-     sudo apt-get update
-     sudo apt-get install python3-spidev
+     pip3 install spidev
      ```
 
    - Install `RPi.GPIO` for GPIO operations:
      ```bash
-     sudo apt-get install python3-rpi.gpio
+     pip3 install RPi.GPIO
      ```
 
 2. **Clone the Repository:**
