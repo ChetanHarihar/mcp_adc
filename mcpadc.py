@@ -6,7 +6,7 @@ import RPi.GPIO as GPIO
 
 # Define a class named MCP for interacting with MCP ADC
 class MCP:
-    def __init__(self, model="3008", spi_bus=0, spi_device=0, v_ref=5.0): # v_ref can be 3.3 or 5.0
+    def __init__(self, model="3008", spi_bus=0, spi_device=0, v_ref=5.0):  # v_ref can be 3.3 or 5.0
         # Set the GPIO mode to BCM (Broadcom SOC channel numbering)
         GPIO.setmode(GPIO.BCM)
 
