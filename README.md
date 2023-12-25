@@ -27,7 +27,7 @@ Additionally, an example script (`example.py`) showcases the usage of the `MCP` 
 2. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/mcp_adc.git
+   git clone https://github.com/ChetanHarihar/mcp_adc.git
    cd mcp_adc
    ```
 
